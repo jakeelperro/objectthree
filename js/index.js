@@ -3572,14 +3572,14 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 /* 11 */
 /***/function (module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__.p + "low-poly-donut.obj";
+	module.exports = "js/pc.obj";
 
 	/***/
 },
 /* 12 */
 /***/function (module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__.p + "low-poly-donut.mtl";
+	module.exports =  "js/pc.mtl";
 
 	/***/
 },
