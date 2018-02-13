@@ -9,7 +9,7 @@ ctx.translate(canvas.width / 2, canvas.height / 2);
 }
 window.onresize();
 
-var objUrl = 'pc.obj'
+var objUrl = 'js/pc.obj'
 
 fetch(objUrl).then(d => d.text().then(t => loadObj(t)));
 
