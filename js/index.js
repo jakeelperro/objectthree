@@ -16,6 +16,7 @@ fetch(objUrl).then(d => d.text().then(t => loadObj(t)));
 var points = [];
 var faces = [];
 
+
 var persp = 300;
 var size = 200;
 
