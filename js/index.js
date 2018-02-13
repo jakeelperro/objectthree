@@ -18,7 +18,7 @@ var faces = [];
 
 
 var persp = 300;
-var size = 200;
+var size = 30;
 
 function loadObj(str) {
   var lines = str.split('\n');
