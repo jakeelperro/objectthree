@@ -2004,7 +2004,7 @@ background-color: #141414;
 }
 .rk-menu__item {
      
-  color: #fafafa;
+  color: #a0a0a0;
   display: inherit;
     margin-right: 2em;
 
@@ -2024,6 +2024,10 @@ background-color: #141414;
 }
 .rk-menu__link {
   padding-bottom: 1rem;
+}
+
+.rk-menu__link:hover {
+  color: #fafafa;
 }
 
 footer .rk-menu__link{
@@ -2097,7 +2101,7 @@ footer .rk-menu__link{
     -webkit-justify-content: center;
     -ms-flex-pack: center;
             justify-content: center;
-    background-color: rgba(255, 255, 255, .95);
+    background-color: #141414;
     overflow: auto;
   }
   #mobile-menu:checked ~ .rk-topbar .rk-menu {
