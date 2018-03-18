@@ -254,9 +254,9 @@ background-color: #141414;
 }
 
 .rk-footer__text {
-  color: #787878;
-  font-size: .75rem;
-  margin-bottom: .875rem;
+  color: #fafafa ;
+	    font-family: 'Work Sans', sans-serif;
+
 }
 .rk-footer__text span {
   font-size: .875rem;
@@ -2016,10 +2016,12 @@ background-color: #141414;
 }
 .rk-menu__link {
   padding-bottom: 1rem;
-    
-       
-
 }
+
+footer .rk-menu__link{
+	color: #f61673;
+}
+
 .rk-menu__sub {
   background-color: white;
   left: 0;
