@@ -8,7 +8,15 @@
 @charset "UTF-8";
 body {
   margin: 0;
-  background-color: #141414;    
+}
+
+.inde{
+	  background-color: #141414;    
+
+}
+
+.about{
+	  background-color: #fafafa;    
 }
 
 .rk-container {
