@@ -70,6 +70,7 @@ body {
 
 
 .rk-header {
+    
   position: relative;
   z-index: 5;
     top: 0;
@@ -2246,7 +2247,7 @@ footer .rk-menu__link{
 }
 .rk-header .ind{
   
-background-color: #000000;
+    background-color: #000000;
 }
 .rk-header .about{
 	  background-color: #fafafa;    
