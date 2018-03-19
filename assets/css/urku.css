@@ -2226,14 +2226,20 @@ footer .rk-menu__link{
     margin-bottom: 15%;
     color: #fafafa;
     margin-left: 15%;
-    width: 60%;
+    width: 63%;
 }
 
 .bio{
     font-family: 'Work Sans', sans-serif;
-    font-size: 1.8em;
-    font-weight: 300;
-    
+    font-size: 1em;
+    font-weight: 100; 
 }
 
 
+@media (min-width: 64em) {
+  .bio{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.8em;
+    font-weight: 100; 
+}
+}
