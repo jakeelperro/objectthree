@@ -1307,13 +1307,25 @@ transition: top 0.5s ease-in-out;
   -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: end;
-  -webkit-align-items: flex-end;
+  -webkit-align-items: center;
   -ms-flex-align: end;
-          align-items: flex-end;
+          align-items: center;
   height: 100vh;
   padding-bottom: 1.5rem;
   width: 100%;
 }
+
+
+
+.up{
+    opacity: 0;
+    transition:  opacity 400ms cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+
+
+
+
+
 @media (min-width: 40em) {
   .rk-portfolio-cover {
     padding-bottom: 2.5rem;
@@ -1326,6 +1338,7 @@ transition: top 0.5s ease-in-out;
 
 .rk-portfolio-title {
   letter-spacing: .0359em;
+    font-weight: 600;
 }
 
 .rk-portfolio-category {
@@ -1371,6 +1384,7 @@ transition: top 0.5s ease-in-out;
 }
 .item-inside__meta .rk-portfolio-title,
 .item-inside__meta .rk-portfolio-category {
+    font-family: 'Work Sans', sans-serif !important;
   position: relative;
   z-index: 2;
 }
@@ -1388,9 +1402,12 @@ transition: top 0.5s ease-in-out;
 }
 
 .item-inside-1 {
-  background-image: url("../img/project-1.jpg");
-  background-position: 50% 100%;
-  background-size: 350%;
+      background-image: url("../img/project-1.jpg");
+ 
+ background-size: auto;
+    background-attachment: fixed;
+    opacity: 1;
+    transition:  opacity 400ms cubic-bezier(0.39, 0.575, 0.565, 1);
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5) {
   .item-inside-1 {
@@ -1399,7 +1416,7 @@ transition: top 0.5s ease-in-out;
 }
 @media (min-width: 40em) {
   .item-inside-1 {
-    background-size: 150%;
+    background-size: cover;
   }
 }
 
@@ -2307,3 +2324,7 @@ footer .rk-menu__link{
 .end{
     margin-bottom: 30%;
 }
+
+
+
+

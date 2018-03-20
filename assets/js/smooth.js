@@ -29,12 +29,16 @@ function hasScrolled() {
     if (st > lastScrollTop && st > navbarHeight){
         // Scroll Down
         $('.rk-header').removeClass('nav-down').addClass('nav-up');
+        $('.item-inside-1').removeClass('down').addClass('up');
     } else {
         // Scroll Up
         if(st + $(window).height() < $(document).height()) {
             $('.rk-header').removeClass('nav-up').addClass('nav-down');
+             $('.item-inside-1').removeClass('up').addClass('down');
         }
     }
     
+
     lastScrollTop = st;
 }
+
