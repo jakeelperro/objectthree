@@ -29,7 +29,6 @@ function hasScrolled() {
     if (st > lastScrollTop && st > navbarHeight){
         // Scroll Down
         $('.rk-header').removeClass('nav-down').addClass('nav-up');
-        $('.item-inside-1').removeClass('down').addClass('up');
     } else {
         // Scroll Up
         if(st + $(window).height() < $(document).height()) {
@@ -42,3 +41,14 @@ function hasScrolled() {
     lastScrollTop = st;
 }
 
+$(window).scroll(function() {
+
+    if ($(this).scrollTop()>80)
+     {
+        $('.item-inside-1').removeClass('down').addClass('up');
+     }
+    else
+     {
+      $('.item-inside-1').removeClass('up').addClass('down');
+     }
+ });
