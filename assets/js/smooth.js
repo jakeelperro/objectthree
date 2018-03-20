@@ -45,10 +45,10 @@ $(window).scroll(function() {
 
     if ($(this).scrollTop()>80)
      {
-        $('.item-inside-1').removeClass('down').addClass('up');
+        $('.bg-project').removeClass('down').addClass('up');
      }
     else
      {
-      $('.item-inside-1').removeClass('up').addClass('down');
+      $('.bg-project').removeClass('up').addClass('down');
      }
  });
