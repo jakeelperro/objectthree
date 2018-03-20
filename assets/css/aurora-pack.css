@@ -19,6 +19,7 @@
 }
 
 html {
+    
   box-sizing: border-box;
 }
 
@@ -2603,8 +2604,8 @@ html {
 
 body {
   background-color: #fff;
-  color: #202020;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #202020; 
+  font-family: 'Work Sans', sans-serif !important;
   font-size: 1.125rem;
   line-height: 1.5;
 }

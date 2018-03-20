@@ -1400,10 +1400,14 @@ transition: top 0.5s ease-in-out;
 }
 
 .bg-project{
-    height: 100vh;
+    height: 100%;
     width: 100%;
     position: fixed;
-    z-index: -1;
+     background-image: url("../img/project-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+ 
      opacity: 1;
     transition:  opacity 400ms cubic-bezier(0.39, 0.575, 0.565, 1);
 }
@@ -2344,5 +2348,13 @@ footer .rk-menu__link{
 }
 
 
+.item-exp{
+    text-align: center;
+}
 
-
+.item-role{
+     text-align: center;
+    font-size: 1em;
+    font-weight: 600;
+    
+}
