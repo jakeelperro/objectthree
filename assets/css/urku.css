@@ -1403,7 +1403,7 @@ transition: top 0.5s ease-in-out;
     height: 100%;
     width: 100%;
     position: fixed;
-     background-image: url("../img/project-1.jpg");
+     background-image: url("../img/bg-project-1.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
