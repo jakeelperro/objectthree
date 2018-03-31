@@ -52,3 +52,5 @@ $(window).scroll(function() {
       $('.bg-project').removeClass('up').addClass('down');
      }
  });
+
+ 
