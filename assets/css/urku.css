@@ -1431,6 +1431,11 @@ transition: top 0.5s ease-in-out;
 	     background-image: url("../img/bg-project-3.jpg");
 }
 
+.bg-item-4{
+	     background-image: url("../img/bg-project-4.png");
+}
+
+
 
 .item-inside-1 {
     height: 100%;
