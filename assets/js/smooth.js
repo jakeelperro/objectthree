@@ -41,16 +41,4 @@ function hasScrolled() {
     lastScrollTop = st;
 }
 
-$(window).scroll(function() {
-
-    if ($(this).scrollTop()>80)
-     {
-        $('.bg-project').removeClass('down').addClass('up');
-     }
-    else
-     {
-      $('.bg-project').removeClass('up').addClass('down');
-     }
- });
-
  

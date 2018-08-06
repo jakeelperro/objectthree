@@ -1233,7 +1233,7 @@ transition: top 0.5s ease-in-out;
 }
 
 .item-4 {
-  background-image: url("../img/project-8.jpg");
+  background-image: url("../img/project-8.png");
 }
 
 .item-5 {
@@ -1246,7 +1246,7 @@ transition: top 0.5s ease-in-out;
 }
 
 .item-6 {
-  background-image: url("../img/project-8.jpg");
+  background-image: url("../img/project-8.png");
 }
 @media (min-width: 40em) {
   #layout-grid:checked ~ .rk-portfolio .item-6 {
@@ -1259,7 +1259,7 @@ transition: top 0.5s ease-in-out;
 }
 
 .item-8 {
-  background-image: url("../img/project-8.jpg");
+  background-image: url("../img/project-8.png");
 }
 
 .item-9 {
@@ -1279,7 +1279,7 @@ transition: top 0.5s ease-in-out;
 }
 
 .item-13 {
-  background-image: url("../img/project-8.jpg");
+  background-image: url("../img/project-8.png");
 }
 @media (min-width: 40em) {
   #layout-grid:checked ~ .rk-portfolio .item-13 {
@@ -1322,14 +1322,10 @@ transition: top 0.5s ease-in-out;
   -webkit-align-items: center;
   -ms-flex-align: end;
           align-items: center;
-  height: 100vh;
+  height: 10vh;
   padding-bottom: 1.5rem;
   width: 100%;
 }
-
-
-
-
 
 
 @media (min-width: 40em) {
@@ -1414,7 +1410,7 @@ transition: top 0.5s ease-in-out;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-     opacity: 1;
+     opacity: 0.05;
     transition:  opacity 400ms cubic-bezier(0.39, 0.575, 0.565, 1);
 }
 
@@ -2332,7 +2328,7 @@ footer .rk-menu__link{
 
 .about .bio{
      font-family: 'Work Sans', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     line-height: 1.5;
     font-weight: 400;
     color: #f61673;
@@ -2348,7 +2344,7 @@ footer .rk-menu__link{
 }
 .about .exp{
      font-family: 'Work Sans', sans-serif;
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: 1.5;
     font-weight: 300;
     color: #f61673;
@@ -2356,7 +2352,7 @@ footer .rk-menu__link{
 
 .exp  a{
      font-family: 'Work Sans', sans-serif;
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: 1.5;
     font-weight: 600;
     color: #f61673;
@@ -2381,7 +2377,7 @@ footer .rk-menu__link{
 }
 
 .item-role{
-     text-align: center;
+    text-align: left;
     font-size: 1em;
     font-weight: 600;
     
